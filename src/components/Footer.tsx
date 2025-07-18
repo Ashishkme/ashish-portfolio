@@ -14,7 +14,7 @@ export default function Footer() {
           <Github className="w-5 h-5" />
         </a>
         <a
-          href="https://linkedin.com/in/ashish-kumar"
+          href="https://linkedin.com/in/ashish-kumar-32941914b/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-700 dark:hover:text-blue-400"

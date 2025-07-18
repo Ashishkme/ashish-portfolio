@@ -12,7 +12,7 @@ export default function Contact() {
           <a href="mailto:aashishkme@gmail.com" className="hover:underline flex items-center gap-1">
             <Mail size={20} /> Email
           </a>
-          <a href="https://linkedin.com/in/ashish-kumar" target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center gap-1">
+          <a href="https://linkedin.com/in/ashish-kumar-32941914b/" target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center gap-1">
             <Linkedin size={20} /> LinkedIn
           </a>
           <a href="https://github.com/Ashishkme" target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center gap-1">
