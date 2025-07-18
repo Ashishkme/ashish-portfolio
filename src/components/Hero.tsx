@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Hero() {
   return (
     <section className="flex flex-col items-center justify-center text-center min-h-[60vh] px-4" id="hero">

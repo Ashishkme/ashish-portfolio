@@ -1,4 +1,3 @@
-import React from "react";
 
 const Navbar = () => {
   const navItems = ["about", "experience", "projects", "skills"];

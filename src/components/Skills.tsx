@@ -1,4 +1,3 @@
-import React from "react";
 
 const skills = {
   Languages: ["Python", "TypeScript", "SQL (Postgres)"],

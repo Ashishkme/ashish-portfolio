@@ -1,4 +1,3 @@
-import React from "react";
 import { Github, Linkedin, ArrowUp } from "lucide-react";
 
 export default function Footer() {
