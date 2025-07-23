@@ -25,20 +25,39 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-12 px-4 max-w-4xl mx-auto">
-      <h2 className="text-3xl font-bold mb-8 text-center">Experience</h2>
-      {experiences.map((exp, idx) => (
-        <div key={idx} className="mb-8">
-          <h3 className="text-xl font-semibold">{exp.role}</h3>
-          <p className="text-gray-600">{exp.company} — {exp.location}</p>
-          <p className="text-sm text-gray-500 mb-2">{exp.period}</p>
-          <ul className="list-disc list-inside space-y-1 text-gray-700">
-            {exp.details.map((point, i) => (
-              <li key={i}>{point}</li>
-            ))}
-          </ul>
+    <section
+      id="experience"
+      className="bg-gradient-to-br from-blue-50 to-blue-100 py-20 px-6"
+    >
+      <div className="max-w-5xl mx-auto">
+        <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+          Experience
+        </h2>
+
+        <div className="space-y-8">
+          {experiences.map((exp, idx) => (
+            <div
+              key={idx}
+              className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition"
+            >
+              <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
+                <h3 className="text-xl font-semibold text-blue-800">
+                  {exp.role}
+                </h3>
+                <p className="text-sm text-gray-500">{exp.period}</p>
+              </div>
+              <p className="text-gray-700 font-medium mb-1">
+                {exp.company} — {exp.location}
+              </p>
+              <ul className="list-disc list-inside text-gray-700 space-y-1 mt-2">
+                {exp.details.map((point, i) => (
+                  <li key={i}>{point}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
-      ))}
+      </div>
     </section>
   );
 }

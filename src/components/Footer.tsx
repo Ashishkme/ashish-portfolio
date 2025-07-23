@@ -2,38 +2,38 @@ import { Github, Linkedin, ArrowUp } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 dark:bg-gray-900 text-center py-6 mt-16 text-sm text-gray-600 dark:text-gray-400">
+    <footer className="bg-gradient-to-br from-blue-50 to-blue-100 text-center py-10 px-4 text-sm text-gray-700">
       {/* Social Icons */}
-      <div className="flex justify-center space-x-6 mb-3">
+      <div className="flex justify-center gap-6 mb-4">
         <a
           href="https://github.com/Ashishkme"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-black dark:hover:text-white"
+          className="text-gray-700 hover:text-blue-800 transition"
         >
-          <Github className="w-5 h-5" />
+          <Github className="w-6 h-6" />
         </a>
         <a
           href="https://linkedin.com/in/ashish-kumar-32941914b/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-blue-700 dark:hover:text-blue-400"
+          className="text-gray-700 hover:text-blue-800 transition"
         >
-          <Linkedin className="w-5 h-5" />
+          <Linkedin className="w-6 h-6" />
         </a>
       </div>
 
-      {/* Back to Top Link */}
+      {/* Back to Top */}
       <a
         href="#hero"
-        className="flex justify-center items-center space-x-1 text-blue-600 hover:underline dark:text-blue-400"
+        className="inline-flex items-center gap-1 text-blue-700 font-medium hover:text-blue-900 transition"
       >
         <ArrowUp className="w-4 h-4" />
-        <span>Back to Top</span>
+        Back to Top
       </a>
 
       {/* Copyright */}
-      <p className="mt-2">
+      <p className="mt-4 text-xs text-gray-600">
         © {new Date().getFullYear()} Ashish Kumar. All rights reserved.
       </p>
     </footer>
