@@ -12,7 +12,7 @@ export default function Hero() {
         {/* Action Buttons */}
         <div className="mt-4 flex flex-wrap justify-center gap-4">
           <a
-            href="/Ashish_Kumar_Resume.pdf"
+            href="/Ashish_Resume.pdf"
             download
             className="bg-blue-600 text-white px-6 py-2 rounded-full text-sm font-semibold shadow-md hover:bg-blue-700 transition"
           >
